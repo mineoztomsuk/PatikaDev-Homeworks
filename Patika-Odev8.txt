@@ -1,0 +1,64 @@
+CREATE TABLE employee (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+	birthdate DATE,
+	email VARCHAR(100) );
+
+insert into employee (name, birthday, email) values ('Porty MacAllan', '2022-02-01', 'pmacallan0@forbes.com');
+insert into employee (name, birthday, email) values ('Felicia Lakenden', '2021-10-28', 'flakenden1@dropbox.com');
+insert into employee (name, birthday, email) values ('Ethelred Dornin', '2021-06-20', 'edornin2@tripadvisor.com');
+insert into employee (name, birthday, email) values ('Elinor Pitkeathley', '2021-06-17', 'epitkeathley3@hexun.com');
+insert into employee (name, birthday, email) values ('Caitrin Saich', '2021-04-09', 'csaich4@businesswire.com');
+insert into employee (name, birthday, email) values ('Babita Siddall', '2021-09-22', 'bsiddall5@usda.gov');
+insert into employee (name, birthday, email) values ('Steven Ardling', '2022-02-05', 'sardling6@buzzfeed.com');
+insert into employee (name, birthday, email) values ('Shae Rowntree', '2021-03-11', 'srowntree7@apache.org');
+insert into employee (name, birthday, email) values ('Ebenezer Blenkinsop', '2022-01-26', 'eblenkinsop8@networkadvertising.org');
+insert into employee (name, birthday, email) values ('Maxi Robuchon', '2021-09-28', 'mrobuchon9@geocities.com');
+insert into employee (name, birthday, email) values ('Drucy Kirsop', '2021-08-21', 'dkirsopa@over-blog.com');
+insert into employee (name, birthday, email) values ('Shir McCrae', '2021-05-21', 'smccraeb@va.gov');
+insert into employee (name, birthday, email) values ('Rogers Pilpovic', '2022-01-30', 'rpilpovicc@fema.gov');
+insert into employee (name, birthday, email) values ('Ellene Scathard', '2021-12-04', 'escathardd@mysql.com');
+insert into employee (name, birthday, email) values ('Rhonda McKirdy', '2021-08-26', 'rmckirdye@blinklist.com');
+insert into employee (name, birthday, email) values ('Standford Gosnell', '2022-02-22', 'sgosnellf@1und1.de');
+insert into employee (name, birthday, email) values ('Averil Ager', '2021-11-06', 'aagerg@hostgator.com');
+insert into employee (name, birthday, email) values ('Beitris Hothersall', '2022-01-26', 'bhothersallh@soup.io');
+insert into employee (name, birthday, email) values ('Uriah Sandle', '2021-07-02', 'usandlei@csmonitor.com');
+insert into employee (name, birthday, email) values ('Abbi Leveridge', '2022-01-20', 'aleveridgej@newsvine.com');
+insert into employee (name, birthday, email) values ('Vinnie Blaxall', '2022-02-05', 'vblaxallk@ask.com');
+insert into employee (name, birthday, email) values ('Jennilee Timbs', '2021-07-11', 'jtimbsl@state.tx.us');
+insert into employee (name, birthday, email) values ('Mab Fasham', '2021-09-28', 'mfashamm@unesco.org');
+insert into employee (name, birthday, email) values ('Rory Phythien', '2022-02-17', 'rphythienn@home.pl');
+insert into employee (name, birthday, email) values ('Franni Eakly', '2021-07-11', 'feaklyo@indiatimes.com');
+insert into employee (name, birthday, email) values ('Lorita Garioch', null, null);
+insert into employee (name, birthday, email) values ('Pat Darrach', '2021-06-06', 'pdarrachq@google.co.jp');
+insert into employee (name, birthday, email) values ('Arleyne Collister', '2021-05-23', 'acollisterr@privacy.gov.au');
+insert into employee (name, birthday, email) values ('Michal Scorer', '2021-09-14', 'mscorers@vistaprint.com');
+insert into employee (name, birthday, email) values ('Adelaida Losbie', '2021-09-23', 'alosbiet@youtu.be');
+insert into employee (name, birthday, email) values ('Susy Gulk', null, null);
+insert into employee (name, birthday, email) values ('Lotte Hallet', '2021-03-22', 'lhalletv@vkontakte.ru');
+insert into employee (name, birthday, email) values ('Brandy Blazic', '2021-10-25', 'bblazicw@ftc.gov');
+insert into employee (name, birthday, email) values ('Daffi Folkes', '2021-05-02', 'dfolkesx@typepad.com');
+insert into employee (name, birthday, email) values ('Rosa Lunck', '2022-01-21', 'rluncky@webnode.com');
+insert into employee (name, birthday, email) values ('Ferdinanda Langeley', '2021-08-17', 'flangeleyz@usda.gov');
+insert into employee (name, birthday, email) values ('Ashlan Tape', '2021-05-14', 'atape10@scribd.com');
+insert into employee (name, birthday, email) values ('Rosamund Langforth', '2021-07-13', 'rlangforth11@nydailynews.com');
+insert into employee (name, birthday, email) values ('Doloritas Wilkie', '2022-02-15', 'dwilkie12@blinklist.com');
+insert into employee (name, birthday, email) values ('Christy Inderwick', '2021-08-20', 'cinderwick13@archive.org');
+insert into employee (name, birthday, email) values ('Corey Tilliard', '2021-05-16', 'ctilliard14@hud.gov');
+insert into employee (name, birthday, email) values ('Brockie Pietersma', '2022-02-05', 'bpietersma15@histats.com');
+insert into employee (name, birthday, email) values ('Tana Lagde', '2022-01-06', 'tlagde16@unesco.org');
+insert into employee (name, birthday, email) values ('Edgar Jorg', '2021-07-31', 'ejorg17@simplemachines.org');
+insert into employee (name, birthday, email) values ('Tracie Cordon', '2022-02-16', 'tcordon18@mediafire.com');
+insert into employee (name, birthday, email) values ('Jacinthe Zielinski', '2021-06-08', 'jzielinski19@ihg.com');
+insert into employee (name, birthday, email) values ('Sawyere Blackmoor', '2021-08-21', 'sblackmoor1a@indiegogo.com');
+insert into employee (name, birthday, email) values ('Jessey Wylam', '2021-03-27', 'jwylam1b@japanpost.jp');
+insert into employee (name, birthday, email) values ('Bale Cockayme', null, null);
+insert into employee (name, birthday, email) values ('Emlynne Rosell', '2021-03-28', 'erosell1d@artisteer.com');
+
+UPDATE employee
+SET name = 'AHMET'
+WHERE name ~~ 'B%';
+
+DELETE FROM employee
+WHERE id > 45
+returning *;
